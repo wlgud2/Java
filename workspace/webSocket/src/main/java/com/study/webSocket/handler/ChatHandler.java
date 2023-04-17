@@ -20,6 +20,7 @@ public class ChatHandler extends TextWebSocketHandler {
 
 	@Override
 	protected void handleTextMessage(WebSocketSession session, TextMessage message) {
+		log.info("message: {}", message);
 		String payload = message.getPayload();
 		log.info("payload: {}", payload);
 		for (WebSocketSession sess : list) {
