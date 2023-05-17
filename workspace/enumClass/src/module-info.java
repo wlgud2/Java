@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author akddn
+ *
+ */
+module enumClass {
+}
