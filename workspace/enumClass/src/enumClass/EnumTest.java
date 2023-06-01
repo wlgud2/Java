@@ -3,7 +3,7 @@ package enumClass;
 public class EnumTest {
 
 	public static void main(String[] args) {
-		Status status = Status.성공;
+		Status status = Status.SUCCESS;
 		System.out.println("status: " + status);
 
 		// values: 모든 요소 반납
